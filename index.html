@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Második nap</title>
+    <link rel="stylesheet" href="css/my.css">
+</head>
+
+<body>
+
+    <!-- Felső menü. -->
+    <nav class="main-menu">
+        <a href="products.html">Temékek</a>
+        <a href="newsletter.html">Hírlevél</a>
+        <a href="about.html">Rólunk</a>
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Email</th>
+                <th>Foglalkozás</th>
+                <th>Életkor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Németh György</td>
+                <td>gyuri.ducati@gmail.com</td>
+                <td>HTML5 programozó</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Nagy Péter</td>
+                <td>nagy.peter@gmail.com</td>
+                <td>designer</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Szabó Pálné</td>
+                <td>szabo.palne@gmail.com</td>
+                <td>Nyugdíjas</td>
+                <td>74</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <!-- Feliratkozás hírlevélre -->
+    <h2>Kérjük adja meg adatait</h2>
+    <div class="form-div">
+        <form method="get" action="http://post.nettuts.hu/">
+            <label for="name">Név</label>
+            <br>
+            <input id="name" type="text" name="name">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" name="email">
+            <br>
+            <label for="job">Foglalkozás</label>
+            <br>
+            <select name="job">
+                <option value="1">Autószerelő</option>
+                <option value="2">Programozó</option>
+                <option value="3">Taxis</option>
+                <option value="4">Vállalkozó</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Feliratokzás">
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

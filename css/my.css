@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    border: solid 1px #E0E0E0;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #E0E0E0;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+}
+table tbody td {
+    font-size: 0.7em;
+    padding: 3px;
+}
+.form-div {
+    margin-top: 30px;
+}
